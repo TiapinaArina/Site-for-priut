@@ -385,6 +385,7 @@ input[name="r"] {
   gap: 25px;
   margin-bottom: 70px;
   border-top: 2px solid var(--basic-grey-100);
+  padding-top: 30px;
 }
 
 .about-fond {
@@ -807,7 +808,6 @@ a.find {
 
 
 /*/МЕДИАЗАПРОСЫ/*/
-/*/Главная/*/
 @media (max-width:930px) {
   .animal-card {
     width: calc(100%/3);
@@ -815,11 +815,6 @@ a.find {
 }
 
 @media (max-width: 767px) {
-  .page-body {
-    font-size: 15px;
-    line-height: 25px;
-  }
-
   .button {
     font-size: 15px;
     line-height: 16px;
@@ -833,6 +828,7 @@ a.find {
     width: fit-content;
   }
 
+  /*/Главная/*/
   .slide p:first-child {
     font-size: 50px;
     line-height: 50px;
@@ -931,7 +927,7 @@ a.find {
   }
 
   .gallery>p {
-    margin: 20px 25px;
+    margin: 20px 20px;
   }
 
   /*/Страницы с текстом/*/
@@ -972,6 +968,16 @@ a.find {
 
 
 @media (max-width: 575px) {
+  .page-body {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .button {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
   .main-navigation-wrapper {
     justify-content: space-between;
   }
@@ -991,7 +997,7 @@ a.find {
   }
 
   .site-navigation li:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .submenu {
@@ -1005,16 +1011,6 @@ a.find {
   }
 
   /*/Главная/*/
-  .page-body {
-    font-size: 14px;
-    line-height: 25px;
-  }
-
-  .button {
-    font-size: 14px;
-    line-height: 15px;
-  }
-
   .slide p:first-child {
     font-size: 30px;
     line-height: 35px;
@@ -1132,6 +1128,9 @@ a.find {
   .animal-card {
     width: calc(100%/1);
   }
+  .gallery>p {
+    margin: 20px 10px;
+  }
 
   /*/Страницы с текстом/*/
   h1.how-to-take,
@@ -1167,7 +1166,7 @@ a.find {
     width: fit-content;
   }
 
-  .pets-item img{
+  .pets-item img {
     max-width: 250px;
   }
 }
