@@ -203,10 +203,6 @@ main {
 background-color: var(--basic-red);
 }
 
-.btn-right {
-  background-color: #E5A722;
-}
-
 .bar {
   height: 6px;
   width: 30px;
